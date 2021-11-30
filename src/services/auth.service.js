@@ -4,12 +4,12 @@ import axios from 'axios';
 const API_URL = 'https://careerwheel-api-dkutd.ondigitalocean.app/api/auth';
 
 class AuthService {
-  async login({ email, password }) {
+  async login(email, password) {
     const response = await axios.post(`${API_URL}/signin`, { email, password });
-    if (response.data.accessToken) {
-      localStorage.setItem('user', JSON.stringify(response.data));
+    if (response.token) {
+      localStorage.setItem('user', JSON.stringify(response));
     }
-    return response.data;
+    return response;
   }
 
   logout() {
@@ -17,7 +17,7 @@ class AuthService {
   }
 
   register({ firstName, lastName, dob, occupation, location, gender, email, password }) {
-    const response = axios.post(`${API_URL}/signup`, {
+    return axios.post(`${API_URL}/signup`, {
       firstName,
       lastName,
       dob,
@@ -27,10 +27,6 @@ class AuthService {
       email,
       password
     });
-    if (response.token) {
-      localStorage.setItem('user', JSON.stringify(response));
-    }
-    return response;
   }
 }
 
