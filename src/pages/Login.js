@@ -9,6 +9,7 @@ import Page from '../components/Page';
 import { MHidden } from '../components/@material-extend';
 import { LoginForm } from '../components/authentication/login';
 import AuthSocial from '../components/authentication/AuthSocial';
+// images
 
 // ----------------------------------------------------------------------
 
@@ -41,7 +42,7 @@ const ContentStyle = styled('div')(({ theme }) => ({
 
 export default function Login() {
   return (
-    <RootStyle title="Login | Minimal-UI">
+    <RootStyle title="Login | ProdOpt">
       <AuthLayout>
         Don’t have an account? &nbsp;
         <Link underline="none" variant="subtitle2" component={RouterLink} to="/register">
@@ -54,7 +55,7 @@ export default function Login() {
           <Typography variant="h3" sx={{ px: 5, mt: 10, mb: 5 }}>
             Hi, Welcome Back
           </Typography>
-          <img src="/static/illustrations/illustration_login.png" alt="login" />
+          <img src="/static/illustrations/man.png" alt="login" />
         </SectionStyle>
       </MHidden>
 
@@ -62,7 +63,7 @@ export default function Login() {
         <ContentStyle>
           <Stack sx={{ mb: 5 }}>
             <Typography variant="h4" gutterBottom>
-              Sign in to Minimal
+              Sign in to ProdOpt
             </Typography>
             <Typography sx={{ color: 'text.secondary' }}>Enter your details below.</Typography>
           </Stack>
