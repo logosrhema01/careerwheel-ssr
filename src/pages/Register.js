@@ -54,7 +54,7 @@ export default function Register() {
           <Typography variant="h3" sx={{ px: 5, mt: 10, mb: 5 }}>
             Take your Career to the next Level!
           </Typography>
-          <img alt="register" src="/static/illustrations/illustration_register.png" />
+          <img alt="register" src="/static/illustrations/woman.png" />
         </SectionStyle>
       </MHidden>
 
@@ -63,9 +63,6 @@ export default function Register() {
           <Box sx={{ mb: 5 }}>
             <Typography variant="h4" gutterBottom>
               Get started absolutely free.
-            </Typography>
-            <Typography sx={{ color: 'text.secondary' }}>
-              Free forever. No credit card needed.
             </Typography>
           </Box>
 
