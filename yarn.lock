@@ -1447,10 +1447,25 @@
   resolved "https://registry.npmjs.org/@iconify/icons-ant-design/-/icons-ant-design-1.1.0.tgz"
   integrity sha512-sE4NKXMfN9arTFmfvt4zARoS+hjhd8P0z5osjWYxVkQPCri1RYpF+NRa9MsDh3ScqAcSU9wfUeQ3X4Gf8GrcNQ==
 
+"@iconify/icons-carbon@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-carbon/-/icons-carbon-1.1.7.tgz#f3e79927ad44b5fb268ff2acae993402d2211e6f"
+  integrity sha512-UoGfTmkcQHscFIuuWmB0x1SAmCic7WVU7j/VBRtZe8BXDUNH0v35QkeU2bqxWBNPKh3Ot90bcpyl2sfajZpzZA==
+
 "@iconify/icons-eva@^1.1.0":
   version "1.1.0"
   resolved "https://registry.npmjs.org/@iconify/icons-eva/-/icons-eva-1.1.0.tgz"
   integrity sha512-a2wCJw+6UebrsoJ2WhpHUcdr4PJljwk0tdu1GfpjzwVyiJBC7y6sc2h7as1npJPLwgMIc/q8YFJf5iFl7Ik3NA==
+
+"@iconify/icons-flat-ui@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-flat-ui/-/icons-flat-ui-1.1.0.tgz#5f08fd0641dbdc25a31fe500d09ff3f25285db2f"
+  integrity sha512-wpEmSS38BoS1kzVVjo99bCgqXt3L5wssDhuvwn8nvyu5R7X/PQEmO6dFi/Fd12E91PTLbkHE6Yc1XMOK0AwSmQ==
+
+"@iconify/icons-grommet-icons@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-grommet-icons/-/icons-grommet-icons-1.1.6.tgz#f8bedcd13ef67be5fdaaeb4b6466f6f31a6ad008"
+  integrity sha512-soy3BsigoQQ8Ow3KBBZJhD2GYPTHQeB7VoepsXfmkZR9l9SQe7O9OMaKn1+uiglfmRFDdZzbvHg7CXIeM9HMTw==
 
 "@iconify/icons-ic@^1.1.10":
   version "1.1.10"

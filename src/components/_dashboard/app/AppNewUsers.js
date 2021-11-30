@@ -1,5 +1,5 @@
 import { Icon } from '@iconify/react';
-import appleFilled from '@iconify/icons-ant-design/apple-filled';
+import appleFilled from '@iconify/icons-grommet-icons/achievement';
 // material
 import { alpha, styled } from '@mui/material/styles';
 import { Card, Typography } from '@mui/material';
@@ -34,7 +34,7 @@ const IconWrapperStyle = styled('div')(({ theme }) => ({
 
 // ----------------------------------------------------------------------
 
-const TOTAL = 1352831;
+const TOTAL = 13;
 
 export default function AppNewUsers() {
   return (
@@ -44,7 +44,7 @@ export default function AppNewUsers() {
       </IconWrapperStyle>
       <Typography variant="h3">{fShortenNumber(TOTAL)}</Typography>
       <Typography variant="subtitle2" sx={{ opacity: 0.72 }}>
-        New Users
+        Past Achievements
       </Typography>
     </RootStyle>
   );

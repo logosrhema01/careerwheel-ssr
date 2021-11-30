@@ -27,10 +27,10 @@ class AuthService {
       email,
       password
     });
-    if (response.data.accessToken) {
-      localStorage.setItem('user', JSON.stringify(response.data));
+    if (response.token) {
+      localStorage.setItem('user', JSON.stringify(response));
     }
-    return response.data;
+    return response;
   }
 }
 
